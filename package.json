@@ -1,0 +1,47 @@
+{
+  "name": "patient-management-system",
+  "version": "0.0.1",
+  "description": "Patient Management App",
+  "productName": "PMS",
+  "cordovaId": "com.tylextech.pms",
+  "capacitorId": "",
+  "author": "Muhammad Tayyab <tayyab@tylextech.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build && cp src/.htaccess dist/spa",
+    "deploy": "now"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.5.1",
+    "axios": "^0.18.1",
+    "dotenv": "^8.2.0",
+    "form-backend-validation": "^2.3.9",
+    "js-cookie": "^2.2.1",
+    "laravel-nova": "^1.2.0",
+    "punycode": "^2.1.1",
+    "quasar": "^1.9.2",
+    "vue-i18n": "^8.15.3",
+    "vue-moment": "^4.1.0",
+    "vue-the-mask": "^0.11.1",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.5.6",
+    "@quasar/quasar-app-extension-qcalendar": "^1.4.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
